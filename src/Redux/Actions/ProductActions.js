@@ -12,7 +12,7 @@ import {
 } from "../Constants/ProductConstants";
 import { URL } from "../Url";
 import { logout } from "./userActions";
-import dotenv from "dotenv";
+// import dotenv from "dotenv";
 
 // PRODUCT LIST
 export const listProduct =

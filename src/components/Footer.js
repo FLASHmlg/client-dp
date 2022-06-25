@@ -13,30 +13,6 @@ const Container = styled.div`
   display: flex;
   background-color: grey;
 `;
-const Left = styled.div`
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  padding: 20px;
-`;
-const Logo = styled.h1``;
-const Description = styled.p`
-  margin: 20px 0px;
-`;
-const SocialContainer = styled.div`
-  display: flex;
-`;
-const SocialIcon = styled.div`
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
-  color: white;
-  background-color: #${(props) => props.color};
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-right: 20px;
-`;
 
 const Center = styled.div`
   flex: 1;
@@ -75,17 +51,14 @@ const Payment = styled.img`
 
 const Footer = () => {
   return (
-    <Container className="d-flex bg-color-#f2f2">
+    <Container className="d-flex bg-color:#f2f2">
       <Center>
         <Title>Useful links</Title>
         <List>
           <ListItem>Home</ListItem>
           <ListItem>Cart</ListItem>
-          <ListItem>Kitchen</ListItem>
-          <ListItem>Bedroom</ListItem>
           <ListItem>My account</ListItem>
           <ListItem>Order tracking</ListItem>
-          <ListItem>Wishlist</ListItem>
           <ListItem>Terms</ListItem>
         </List>
       </Center>
@@ -93,11 +66,11 @@ const Footer = () => {
         <Title>Contact</Title>
         <ContactItem>
           {/* <Room style={{ marginRight: "10px" }} /> */}
-          622 Dixie Path,South Tobinchester 98336
+          вул. 15 Квітня 6, Тернопіль
         </ContactItem>
         <ContactItem>
           {/* <Phone style={{ marginRight: "10px" }} /> */}
-          +1 234 567 89
+          063 250 4356
         </ContactItem>
         <ContactItem>
           {/* <MailOutline style={{ marginRight: "10px" }} /> */}

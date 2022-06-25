@@ -9,8 +9,8 @@ const CalltoActionSection = () => {
             <div className="subscribe-head">
               <h2>Вам потрібне індивідуальне замовлення</h2>
               <form className="form-section">
-                <input placeholder="Your Email..." name="email" type="email" />
-                <input value="Yes. I want!" name="subscribe" type="submit" />
+                <input placeholder="Ваш Email..." name="email" type="email" />
+                <input value="Так. Я хочу!" name="subscribe" type="submit" />
               </form>
             </div>
           </div>
